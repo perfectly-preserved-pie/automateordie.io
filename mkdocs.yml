@@ -1,0 +1,6 @@
+site_name: Automate or Die
+site_url: https://automateordie.io
+theme:
+  name: material
+plugins:
+  - blog
