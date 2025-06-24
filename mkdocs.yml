@@ -2,5 +2,8 @@ site_name: Automate or Die
 site_url: https://automateordie.io
 theme:
   name: material
+  palette:
+    primary: deep purple
+    scheme: slate
 plugins:
   - blog
