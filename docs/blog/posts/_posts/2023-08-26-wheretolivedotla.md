@@ -4,15 +4,8 @@ date:
 ---
 
 # WhereToLive.LA
-
+I made a website to map new rental listings in Los Angeles County based on spreadsheet data.
 <!-- more -->
-
-
-
-## You can view [my source code](https://github.com/perfectly-preserved-pie/larentals) on GitHub. The website is located at [https://wheretolive.la](https://wheretolive.la).
-
-### The website is mobile-friendly (enough) but I still recommend viewing it on a device with a large screen (tablet, laptop, etc.)
-
 ---
 
 I've been looking to move into a new place for a while now and have been amassing resources and websites that I can peruse through to find the right place.
@@ -35,7 +28,8 @@ So I wanted a filterable map. And that's how I fell down the rabbit hole. Using 
 * ImageKit
 * Pandas
 
-I made an interactive map that displays and filters all the rental properties listed. Eventually, [I expanded that to for-sale listings under $1,000,000](https://wheretolive.la/for-sale) (those still exist in LA somehow) since that same person also posts a spreadsheet with that information too.
+I made an interactive map that displays and filters all the rental properties listed. Eventually, [I expanded that to for-sale listings under $1,000,000](https://wheretolive.la/buy) (those still exist in LA somehow) since that same person also posts a spreadsheet with that information too.
+You can view [my source code](https://github.com/perfectly-preserved-pie/larentals) on GitHub. The website is live at [https://wheretolive.la](https://wheretolive.la).
 
 ### Data Handling
 Because the spreadsheet was already in CSV form, Pandas was an obvious choice here. I could simply just read it into a dataframe and add columns and manipulate the data in whatever way I needed to.
